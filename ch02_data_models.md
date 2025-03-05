@@ -195,6 +195,10 @@ In the object-oriented data model (OODM), both data and its relationship are con
 - **Class**: a collection of similar objects with shared structure and behavior
 - **Inheritance**: an object within the *class hierarchy* to inherit the attributes and methods of the classes above it. (class EMPLOYEE and CUSTOMER can be created as subclasses inherit from the class PERSON)
 - OODM are typically depicted using Unified Modeling Language (UML) class diagrams
+- 
+- class(person) property(name/sex/age) behavior,method(speak/jump)
+- subclass(employee)繼承person property(exp/id) behavior(db design/打卡)
+- subclass(student)繼承person property(學號) behavior(打球/翹課)
 
 # OODM Diagram
 ![bg right:70% w:100%](restricted/CFig02_04.jpg)
